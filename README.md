@@ -48,8 +48,3 @@ Keep track of books with options to:
 - Pre-seeded dummy data included for testing
 
 ---
-
-## ✅ Run Instructions
-```bash
-gcc main.c -o program
-./program
