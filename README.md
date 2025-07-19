@@ -1,27 +1,55 @@
-🔷 1. Student Management System
-        It allows the user to manage student data, including:
-            Add a new student with:
-            Unique ID
-            Name
-            Email (must be unique)
-            Phone number (must be unique)
-            Number of courses (1 to 4)
-            Each course has a code and a name
-            View all students in a formatted table
-            Search for a student by ID and see their details + enrolled courses
-            Edit a student's details, including replacing courses
-            Delete a student (also removes their associated courses)
-            Delete all students
+# 📚 Student & Library Management System (C Project)
 
-🔷 2. Library Management System
-        It provides simple features to manage books:
-            Add a book with:
-            Name
-            Author
-            Number of pages
-            Price
-            Display all books
-            Search for books by author name
-            Search for books by book name
-            Get the total count of books
-            Go back to the main menu or exit
+A simple, menu-driven C program that combines two systems:
+
+---
+
+## 🔷 1. Student Management System
+
+Manage student records with features to:
+
+- ➕ Add a new student:
+  - Unique ID
+  - Name
+  - Email (must be unique)
+  - Phone number (must be unique)
+  - Number of Courses (1 to 4)
+  - Each course has a code and name
+- 📋 View all students in a table
+- 🔍 Search student by ID
+- ✏️ Edit student info or update courses
+- ❌ Delete a student (with their courses)
+- 🗑️ Delete all student records
+
+---
+
+## 📘 2. Library Management System
+
+Keep track of books with options to:
+
+- ➕ Add a new book:
+  - Name
+  - Author
+  - Number of pages
+  - Price
+- 📚 View all books
+- 🔍 Search books by:
+  - Author name
+  - Book name
+- 🔢 Total number of books
+- 🔁 Return to main menu or 🚪 exit
+
+---
+
+## ⚙️ Tech Stack
+- Language: **C**
+- Interface: **Console-based**
+- Data Handling: **In-memory (no file I/O)**
+- Pre-seeded dummy data included for testing
+
+---
+
+## ✅ Run Instructions
+```bash
+gcc main.c -o program
+./program
